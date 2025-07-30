@@ -1,0 +1,112 @@
+*{
+    z-index: 1;
+}
+
+.section1{
+    background-image: url(https://live.sociolib.com/nomad/wp-content/uploads/sites/15/2025/07/romantic-sunset-on-a-tropical-beach-with-palm-tree-2025-01-08-10-37-11-utc-1.webp);
+    width: 100%;
+    background-size:cover;
+    background-image: brightness(70%);
+    background-position: left;
+    background-repeat:no-repeat;
+    height: 875px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#div2{
+    margin-top: 5%;
+    margin-right: 10%;
+}
+#div2 h1{
+    color: white;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+#div2 p{
+    color: white;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#div1{
+    margin-top: 600px;
+    width: 20%;
+    height: 18%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 11%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    z-index: 2;
+}
+
+#div1 img{
+    border-radius: 20px;
+    height: 98%;
+    width: 40%;
+}
+
+#divezona{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 5%; */
+    width: 40%;    
+    height: 98%;
+    margin-right: 20px;
+}
+
+#divAtras{
+    position: absolute;
+    width: 19%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0.555);
+    top: 655px;
+    left: 18.5%;
+    border-radius: 20px;
+
+}
+
+#icones{
+    width: 100%;
+    display: flex;
+    flex-direction:  row;
+}
+
+#icones img{
+    width: 35px;
+    height: 35px;
+    border: solid white 3px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+#img1{
+    z-index: 2;
+}
+#img2{
+    z-index: 3;
+    position: relative;
+    right: 10px;
+}
+#img3{
+    z-index: 4;
+    position: relative;
+    right: 20px;
+}
+#img4{
+    z-index: 5;
+    position: relative;
+    right: 30px;
+    cursor: pointer;
+}
+
+#divezona p{
+    position: relative;
+    right: 15px;
+    top: 10px;
+}

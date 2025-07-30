@@ -1,0 +1,15 @@
+.botaoL{
+    background-color: #ff732d;
+    transition: 
+        background-color 0.5s ease,
+        color 0.5s ease,
+        font-weight 0.5s ease;
+}
+
+.botaoL:hover{
+    background-color: #da5512
+}
+
+.botaoL p{
+    color: white;
+}

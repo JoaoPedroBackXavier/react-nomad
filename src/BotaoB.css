@@ -1,0 +1,14 @@
+.botaoB{
+    background-color: white;
+    border: solid rgba(202, 202, 202, 0.726) 1px;
+    transition: 
+        background-color 0.5s ease,
+        color 0.5s ease,
+        font-weight 0.5s ease;
+}
+
+.botaoB:hover{
+    background-color: #da5512;
+    border: none;
+    color: white;
+}

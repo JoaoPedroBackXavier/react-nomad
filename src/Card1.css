@@ -1,0 +1,14 @@
+#devizenhao{
+    border-radius: 20px;
+    border: solid 1px rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+#imagem{
+    width: 100%;
+    height: auto;
+}
